@@ -6,6 +6,7 @@
     "type": "git",
     "url": "https://github.com/solana-labs/example-token"
   },
+  "testnetDefaultChannel": "beta",
   "scripts": {
     "start": "babel-node src/cli/main.js",
     "lint": "npm run pretty && eslint .",
@@ -31,7 +32,7 @@
     "prettier": "^1.14.3"
   },
   "dependencies": {
-    "@solana/web3.js": "^0.26.0",
+    "@solana/web3.js": "^0.27.4",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
     "babel-eslint": "^10.0.1",
